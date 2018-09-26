@@ -1,0 +1,191 @@
+/*
+=====mapacss
+*/
+@import url('https://js.arcgis.com/4.8/esri/css/main.css');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+.mapa {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    margin-top: 25px;
+}
+
+.main {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+    margin-top: 25px;
+}
+
+.jumbotron {
+    background-color: #2F3241;
+    border: 1px solid black;
+    -webkit-box-shadow: 10px 10px 30px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 30px -5px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 30px -5px rgba(0,0,0,0.75);
+    height: 75vh;
+}
+
+a {
+    color: #9FEAF9;
+}
+
+a:hover {
+    color: #7ae2f7;
+}
+
+.tooltip {
+    position: absolute;
+    pointer-events: none;
+    transition: opacity 200ms;
+}
+
+.tooltip>div {
+    margin: 0 auto;
+    padding: 12px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.75);
+    transform: translate3d(-50%, -125%, 0);
+    color: white;
+    background-color: #fb6a4a;
+    border: 1px solid #ef3b2c;
+    opacity: 0.95;
+}
+
+.esri-widget__header, .esri-attribution__sources {
+    display: none;
+}
+
+.esri-widget {
+    background-color: transparent;
+}
+
+/*
++++maincss
+*/
+.navbar {
+    background-color: #2F3241;
+    border-bottom: 1px solid black;
+}
+
+#logo {
+    height: 60px;
+}
+
+.card {
+    border: 1px solid black;
+    -webkit-box-shadow: 10px 10px 30px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 30px -5px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 30px -5px rgba(0,0,0,0.75);
+}
+
+.card-body {
+    background-color: #2F3241;
+    color: white;
+}
+
+.btn-outline-primary {
+    color: #9FEAF9;
+    background-color: transparent;
+    border-color: #9FEAF9;
+}
+
+.btn-outline-primary:hover {
+    color: #2F3241 !important;
+    background-color: #9FEAF9;
+    border-color: #9FEAF9;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+    color: #2F3241;
+    background-color: #9FEAF9;
+    border-color: #9FEAF9;
+}
+
+.btn-outline-primary.focus, .btn-outline-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(159,234,249,.5);
+}
+
+/*
+* Integracion.css
+*/
+
+@import url('https://js.arcgis.com/4.7/esri/css/main.css');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+.integracion {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    margin-top: 25px;
+}
+
+/*
+Grafico.css
+*/
+
+
+.grafica {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    margin-top: 25px;
+}
+
+
+svg{
+    margin: 25px;
+}
+
+path{
+    fill: none;
+    stroke: #76BF8A;
+    stroke-width: 3px;
+}
+body{
+    background-color: #2B2E3B;
+}
+
+
+#tooltip {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    background-color: #2F3241;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 30px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 30px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 30px -5px rgba(0, 0, 0, 0.75);
+    pointer-events: none;
+}
+
+#depto {
+    color: #9FEAF9;
+}
+
+#tooltip.hidden {
+    display: none;
+}
+
+#tooltip p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+svg rect {
+    -moz-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+    opacity: 0.75;
+}
+
+svg rect:hover {
+    opacity: 1;
+    stroke: #9FEAF9;
+    stroke-width: 2;
+}
+

@@ -1,0 +1,31 @@
+@import url('https://js.arcgis.com/4.7/esri/css/main.css');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+#app {
+    font-family: 'Lato', sans-serif;
+
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #2B2E3B;
+}
+
+.navbar {
+    background-color: #2F3241;
+    border-bottom: 1px solid black;
+}
+
+#logo {
+    height: 60px;
+}
+
+
+
+
+
+
+
